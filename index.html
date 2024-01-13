@@ -42,7 +42,7 @@
         <div class="section__text">
           <p class="section__text__p1">Hello, I'm</p>
           <h1 class="title"><span style="color: aquamarine;">Kyle</span> <span style="color: red;">Adrian</span> Mascuñana</h1>
-          <p class="section__text__p2">Future Web Developer</p>
+          <p class="section__text__p2"><span class="multiText"></span></p>
           <div class="btn-container">
             <button
               class="btn btn-color-2"
@@ -110,7 +110,6 @@
                 Good day! I'm Kyle Adrian R. Mascuñana from Iligan City Currently Studying at Mindanao State University at Naawan 4th Year
                  Student. I'm a Information Technology student aspiring to be a web developer Frontend & Backend works. Im searching for a company
                  that assists for my On-the-job training (OJT) to be able to graduate with flying colors.
-
               </p>
             </div>
           </div>
@@ -280,11 +279,11 @@
                   class="project-img"
                 />
               </div>
-              <h2 class="experience-sub-title project-title">Project One</h2>
+              <h2 class="experience-sub-title project-title">Publication Website</h2>
               <div class="btn-container">
                 <button
                   class="btn btn-color-2 project-btn"
-                  onclick="location.href='https://github.com/KyleMascunana'"
+                  onclick="location.href='https://github.com/KyleMascunana/Publication-Project/tree/master'"
                 >
                   Github
                 </button>
@@ -390,5 +389,15 @@
         <p>Copyright &#169; 2023 Kyle Adrian Mascuñana. All Rights Reserved.</p>
       </footer>
     <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typingEffect = new Typed(".multiText", {
+        strings : ["Future Web Developer", "Front-End Developer", "Back-End Developer", "Aspiring Developer"],
+        loop : true, 
+        typeSpeed : 100,
+        backSpeed : 80,
+        backDelay : 1500
+      })
+    </script>
 </body>
 </html>
